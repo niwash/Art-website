@@ -1,0 +1,217 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#747D8C;
+    background-color:#f7f1e3;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#747D8C;
+    
+}
+
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+
+p{
+    font-size: 1.1em;
+}
+
+hr{
+    opacity: 0.5;
+    
+}
+
+.logo{
+    margin:20px 0 0 20px;
+    font-size: 18px;
+    
+}
+
+.menu li{
+    display: inline-block;
+    margin-right:70px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.menu ul{
+    margin-top: 20px;
+}
+
+.filler-image{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 70%;
+}
+
+.carousel{
+    margin-top:7rem;
+    
+}
+
+.img-desc{
+    font-size:1.1em;
+    font-style: italic;
+    margin-top: 2.6rem;
+    text-align:center;
+}
+
+.list-services{
+    display: flex;
+    background-color: #4F5A66;
+    width:73%;
+    margin-top:-30px;
+    align-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 100px;
+    height: 40vh;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.service{
+    height: max-content;
+    width: max-content;
+    padding: 20px;
+}
+
+.services{
+    margin-top: 8em;
+    text-align: center;
+}
+
+
+.service img { 
+    width:60%;
+    height:auto; 
+    
+} 
+
+.service{
+    
+}
+
+.desc{
+    margin:30px;
+    color:#040404;
+    opacity: 0.5;
+}
+
+.desc-2{
+    margin:24px 30px 30px 30px;
+    color:#040404;
+    opacity:0.5;
+}
+
+.filler-p{
+    height: 50vh;
+}
+
+.market-tag{
+    text-align: center;
+    background-color: #E88A2B;
+    color: rgba(0, 0, 0, 0.671);
+    position: relative;
+    top:50%;
+    width: 70vw;
+    transform: translate(21%,0%);
+    font-style: italic;
+    border-radius: 5px;
+    margin:2.2em 0 2.2em 0;
+    height: 5vh;
+    line-height: 5vh;
+}
+
+.testimonials{
+    background-color: #2B717C;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    min-height: fit-content;
+    
+}
+
+.user{
+    margin: 22px 0 0 0;
+    width: 27vw;
+    
+}
+
+.review{
+  padding: 1rem;
+  text-align: center;  
+  color: rgba(0, 0, 0, 0.671);
+  opacity: 0.6;
+  font-style: italic;
+}
+
+.know-more{
+    margin-top: 150px;
+}
+
+.know-more p{
+    text-align: center;
+    /* background-color: #E88A2B; */
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.know-more button{
+    margin-top:40px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #E88A2B;
+    color: rgba(0, 0, 0, 0.671);
+    font-style: italic;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: #4F5A66;
+    height:38vh;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 5px;
+    margin-bottom:20px;
+}
+
+.contact .address{
+    margin-left:100px;
+    margin-top: 20px;
+}
+
+.contact .extras{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.socials{
+    display: flex;
+    width: 80%;
+    margin-left: 8vw;
+    justify-content: space-between;
+    
+}
+
+.socials img{
+    height: 100px;
+    padding: 5px;
+}
